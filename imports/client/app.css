@@ -1,0 +1,270 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+body,html{
+  height: 100%;
+}
+
+#logo{
+  width: 50px;
+  height: 50px;
+}
+
+
+/* Form */
+.has-error {
+  color: red;
+}
+
+#remembermeLabel{
+  padding-top: 5px;
+  color: black;
+}
+
+#forgotpass{
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:slategrey;
+}
+.generic-container {
+width: 60%;
+margin-left: 210px;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 4px;
+  box-shadow: 0 0 30px black;
+  background-color: white;
+}
+
+.cardAdd{
+  padding-top: 10px;
+  padding-left: 15px;
+  border-radius: 8px;
+  width: 30%;
+}
+.addButton{
+  margin-top: 3px;
+  
+}
+
+#sendAllButton{
+  margin-left: 900px;
+  margin-top: -100px;
+}
+
+
+.error404{
+  color: red;
+  text-align: center
+}
+
+/* ================ page newCandidate =================== */
+
+.headerEmployeeCreate {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.candidateInputHeader {
+  font-size: 28px;
+}
+
+.workTypeHeader {
+  margin-bottom: 0px;
+}
+
+
+.socialMedia {
+  display: flex;
+}
+
+.socialMediaName{
+  font-weight: bold;
+}
+
+.additionalsocialMedia {
+  display: flex;
+  margin-left: 15px;
+}
+
+.additionalMediaName {
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.socialMediaUrl {
+  margin-left: 10px;
+}
+
+.createSocialMedia {
+  margin-top: 15px;
+}
+
+.createSocialMediaBtn {
+  align-self: flex-start;
+}
+
+.deleteSocialMediaBtn {
+  align-self: flex-start;
+  margin-left: 5px;
+}
+
+.createCandidateBtn {
+  margin-bottom: 20px;
+}
+
+/* ================ page Home =================== */
+
+.homeHeader {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.devType {
+  position: relative;
+  margin: 30px;
+  border-radius: 30px;  
+  padding: 30px;  
+}
+
+.transparent {
+  border: 0px;
+  color: white;
+  background: transparent;
+}
+
+.transparent::placeholder {
+  color: white;
+}
+
+.icon {
+  padding: 5px;
+  border-radius: 20px;
+  position: absolute;
+  background: #f8f9fa;
+}
+
+.delete-icon {
+  top: -5px;
+  right: -5px;
+  border: 2px solid #868e96;
+  
+}
+
+.icon:hover {
+  background: #868e96;
+}
+
+.icon:active {
+  background:#495057;
+}
+
+.edit-icon {
+  bottom: -5px;
+  right: -5px;
+  border: 2px solid #868e96;
+}
+
+.devType:hover {
+  cursor: pointer;
+}
+
+/* ================ page Employee =================== */
+
+.employeeMsg {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* ================ Header =================== */
+
+.userHeader > .nav-link {
+  font-size: 20px;  
+}
+
+.quit {
+  cursor: pointer;
+}
+
+/* ================ nonFunctional =================== */
+
+.nonFunctionalHeader {
+  margin-top: 150px;
+  text-align: center;
+}
+
+/* ================ newCandidate =================== */
+
+.error {
+  color: rgb(182, 3, 3);
+  font-size: 18px;
+}
+
+.form-experience {
+  display: flex;
+}
+
+.form-experience span {
+  margin: 5px;
+  font-size: 16px;
+}
+
+.addButton {
+  align-self: flex-start;
+  background: transparent;
+  border: 1px solid #8b8b8b;
+  border-radius: 50%;  
+  font-weight: 700;
+  color: #8b8b8b;
+  cursor: pointer;  
+  margin: 0;
+  outline: none !important;
+  padding: 10px 11px 10px 11px;
+  transition: background .3s ease;  
+}
+
+.addButton:hover {
+  background: rgb(139, 218, 143);
+  border: 1px solid rgb(139, 218, 143);
+  color: white;
+}
+
+.deleteButton {
+  background: transparent;
+  border: 1px solid #8b8b8b;
+  border-radius: 50%; 
+  color: #8b8b8b;
+  cursor: pointer;  
+  margin: 0, 0, 0, 5px;
+  outline: none !important;
+  padding: 10px 11px 10px 11px;
+  transition: background .3s ease;
+}
+
+.deleteButton:hover {
+  background: rgb(233, 154, 216);
+  border: 1px solid rgb(233, 154, 216);
+  color: white;
+}
+
+.form-experience input[name='company'] {
+  margin-left: 15px;
+}
+
+.additionalExpirience {  
+  margin-bottom: 15px;
+}
+
+.phone {
+  margin-left: 10px;
+}

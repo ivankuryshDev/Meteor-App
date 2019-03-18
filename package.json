@@ -1,0 +1,35 @@
+{
+  "name": "recruiter-app",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "visualize": "meteor --production --extra-packages bundle-visualizer",
+    "test": "cross-env TEST_WATCH=1 meteor test --driver-package meteortesting:mocha",
+    "test-once": "meteor test --once --driver-package meteortesting:mocha --port 4000",
+    "eslint": "eslint ."
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.5",
+    "babel-eslint": "^10.0.1",
+    "bcrypt": "^3.0.4",
+    "debug": "^4.1.1",
+    "eslint": "^5.14.1",
+    "meteor-node-stubs": "^0.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-select": "^2.4.1",
+    "shortid": "^2.2.14",
+    "simpl-schema": "^1.5.5",
+    "sinon": "^7.2.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "chai": "^4.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
